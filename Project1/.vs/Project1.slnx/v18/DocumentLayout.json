@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\new-begin\\Project1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{347AB188-619E-49B3-AFA5-0FA7CBC4037C}|Project1.vcxproj|D:\\new-begin\\Project1\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{347AB188-619E-49B3-AFA5-0FA7CBC4037C}|Project1.vcxproj|solutionrelative:FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{478A47BD-86CA-43AD-8C67-F79B8636A61D}|Project1.vcxproj|D:\\new-begin\\Project1\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{478A47BD-86CA-43AD-8C67-F79B8636A61D}|Project1.vcxproj|solutionrelative:FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,9 +24,9 @@
               "RelativeDocumentMoniker": "FileName.cpp",
               "ToolTip": "D:\\new-begin\\Project1\\FileName.cpp",
               "RelativeToolTip": "FileName.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAowB4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-25T15:22:23.287Z",
+              "WhenOpened": "2026-06-02T15:19:00.549Z",
               "EditorCaption": ""
             }
           ]

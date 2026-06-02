@@ -1,0 +1,7 @@
+﻿  jian.cpp
+D:\new-begin\Project2\jian.cpp(8,8): error C2131: 表达式的计算结果不是常数
+      D:\new-begin\Project2\jian.cpp(8,8):
+      失败原因是读取了常量表达式中不可使用的变量
+      D:\new-begin\Project2\jian.cpp(8,8):
+      请参见“n”的用法
+  

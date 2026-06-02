@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\new-begin\\Project2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05E4B2B9-9979-4801-B2A7-B53C910B69C7}|Project2.vcxproj|D:\\new-begin\\Project2\\jian.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05E4B2B9-9979-4801-B2A7-B53C910B69C7}|Project2.vcxproj|solutionrelative:jian.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "jian.cpp",
+              "DocumentMoniker": "D:\\new-begin\\Project2\\jian.cpp",
+              "RelativeDocumentMoniker": "jian.cpp",
+              "ToolTip": "D:\\new-begin\\Project2\\jian.cpp*",
+              "RelativeToolTip": "jian.cpp*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-06-02T15:37:10.231Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
