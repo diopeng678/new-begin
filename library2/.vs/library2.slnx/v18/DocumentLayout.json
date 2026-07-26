@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\new-begin\\library2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E09F11A0-D4CF-42D9-A8AE-FC152463D9A9}|library2.vcxproj|D:\\new-begin\\library2\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E09F11A0-D4CF-42D9-A8AE-FC152463D9A9}|library2.vcxproj|solutionrelative:test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E09F11A0-D4CF-42D9-A8AE-FC152463D9A9}|library2.vcxproj|D:\\new-begin\\library2\\library.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E09F11A0-D4CF-42D9-A8AE-FC152463D9A9}|library2.vcxproj|solutionrelative:library.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E09F11A0-D4CF-42D9-A8AE-FC152463D9A9}|library2.vcxproj|D:\\new-begin\\library2\\library.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E09F11A0-D4CF-42D9-A8AE-FC152463D9A9}|library2.vcxproj|solutionrelative:library.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.c",
+              "DocumentMoniker": "D:\\new-begin\\library2\\test.c",
+              "RelativeDocumentMoniker": "test.c",
+              "ToolTip": "D:\\new-begin\\library2\\test.c",
+              "RelativeToolTip": "test.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-06-19T09:59:12.845Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "library.c",
+              "DocumentMoniker": "D:\\new-begin\\library2\\library.c",
+              "RelativeDocumentMoniker": "library.c",
+              "ToolTip": "D:\\new-begin\\library2\\library.c",
+              "RelativeToolTip": "library.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-06-20T15:03:29.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "library.h",
+              "DocumentMoniker": "D:\\new-begin\\library2\\library.h",
+              "RelativeDocumentMoniker": "library.h",
+              "ToolTip": "D:\\new-begin\\library2\\library.h",
+              "RelativeToolTip": "library.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-06-20T15:03:29.344Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

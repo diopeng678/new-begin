@@ -127,6 +127,8 @@ void LibraryAdd(Library* pl)
 	printf("请输入入库数量:>");
 	scanf("%d", &info.total);
 	info.current = info.total;
+	printf("请输入入库时间(YYYY-MM-DD):>");
+	scanf("%s", info.entry_time);
 
 	SLPushBack(pl, info);
 	printf("采编入库成功!\n");
@@ -160,16 +162,17 @@ void LibraryShow(Library* pl)
 		printf("图书馆暂无图书!\n");
 		return;
 	}
-	printf("%-15s %-20s %-15s %-20s %-8s %-8s\n", "书号", "书名", "作者", "出版社", "总库存", "现存量");
+	printf("%-15s %-20s %-15s %-20s %-8s %-8s %-12s\n", "书号", "书名", "作者", "出版社", "总库存", "现存量", "入库时间");
 	for (size_t i = 0; i < pl->size; i++)
 	{
-		printf("%-15s %-20s %-15s %-20s %-8d %-8d\n",
+		printf("%-15s %-20s %-15s %-20s %-8d %-8d %-12s\n",
 			pl->arr[i].id,
 			pl->arr[i].name,
 			pl->arr[i].author,
 			pl->arr[i].press,
 			pl->arr[i].total,
-			pl->arr[i].current);
+			pl->arr[i].current,
+			pl->arr[i].entry_time);
 	}
 }
 
@@ -195,6 +198,8 @@ void LibraryModify(Library* pl)
 	scanf("%d", &pl->arr[pos].total);
 	printf("请输入新现存量(原:%d):>", pl->arr[pos].current);
 	scanf("%d", &pl->arr[pos].current);
+	printf("请输入入库时间(原:%s):>", pl->arr[pos].entry_time);
+	scanf("%s", pl->arr[pos].entry_time);
 	printf("修改成功!\n");
 }
 
@@ -219,14 +224,15 @@ void LibraryFind(Library* pl)
 			printf("未找到该书号的图书!\n");
 			return;
 		}
-		printf("%-15s %-20s %-15s %-20s %-8s %-8s\n", "书号", "书名", "作者", "出版社", "总库存", "现存量");
-		printf("%-15s %-20s %-15s %-20s %-8d %-8d\n",
+		printf("%-15s %-20s %-15s %-20s %-8s %-8s %-12s\n", "书号", "书名", "作者", "出版社", "总库存", "现存量", "入库时间");
+		printf("%-15s %-20s %-15s %-20s %-8d %-8d %-12s\n",
 			pl->arr[pos].id,
 			pl->arr[pos].name,
 			pl->arr[pos].author,
 			pl->arr[pos].press,
 			pl->arr[pos].total,
-			pl->arr[pos].current);
+			pl->arr[pos].current,
+			pl->arr[pos].entry_time);
 	}
 	else if (choice == 2)
 	{
@@ -234,18 +240,19 @@ void LibraryFind(Library* pl)
 		printf("请输入要查找的书名:>");
 		scanf("%s", name);
 		int found = 0;
-		printf("%-15s %-20s %-15s %-20s %-8s %-8s\n", "书号", "书名", "作者", "出版社", "总库存", "现存量");
+		printf("%-15s %-20s %-15s %-20s %-8s %-8s %-12s\n", "书号", "书名", "作者", "出版社", "总库存", "现存量", "入库时间");
 		for (size_t i = 0; i < pl->size; i++)
 		{
 			if (0 == strcmp(pl->arr[i].name, name))
 			{
-				printf("%-15s %-20s %-15s %-20s %-8d %-8d\n",
+				printf("%-15s %-20s %-15s %-20s %-8d %-8d %-12s\n",
 					pl->arr[i].id,
 					pl->arr[i].name,
 					pl->arr[i].author,
 					pl->arr[i].press,
 					pl->arr[i].total,
-					pl->arr[i].current);
+					pl->arr[i].current,
+					pl->arr[i].entry_time);
 				found = 1;
 			}
 		}

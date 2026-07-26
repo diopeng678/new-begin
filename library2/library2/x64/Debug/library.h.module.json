@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "library2\\x64\\Debug\\library.h.obj",
+            "outputs": [
+                "D:\\new-begin\\library2\\library2\\x64\\Debug\\vc145.pdb",
+                "library2\\x64\\Debug\\",
+                "D:\\new-begin\\library2\\library2\\x64\\Debug\\library.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "library.h",
+                    "source-path": "d:\\new-begin\\library2\\library.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

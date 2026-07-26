@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "library2\\x64\\Debug\\library.obj",
+            "outputs": [
+                "library2\\x64\\Debug\\library.h_6EC4ECB7607494A1.ifc.dt.module.json",
+                "library2\\x64\\Debug\\library.h_6EC4ECB7607494A1.ifc.dt.d.json",
+                "library2\\x64\\Debug\\library.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "D:\\new-begin\\library2\\library.h",
+                    "source-path": "d:\\new-begin\\library2\\library.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}
