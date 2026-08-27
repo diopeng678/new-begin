@@ -1,0 +1,118 @@
+# ======================================
+# C++ 忽略：编译产物、可执行文件、obj、cmake、vs、gcc输出
+# ======================================
+# 可执行程序
+*.out
+*.exe
+*.app
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.o
+*.obj
+*.ko
+*.mod
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+cmake_install.cmake
+install_manifest.txt
+
+# Make构建
+*.bak
+*.swp
+*.swo
+*.gch
+*.pch
+
+# ======================================
+# Java 忽略：class、jar、target、maven、gradle
+# ======================================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ======================================
+# Python 忽略：pyc、缓存、虚拟环境、打包产物
+# ======================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# 打包输出
+dist/
+build/
+*.egg-info/
+*.egg
+*.whl
+
+# ipython
+.ipynb_checkpoints/
+
+# ======================================
+# IDE 编辑器通用忽略
+# ======================================
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# IntelliJ IDEA / JetBrains
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# CLion
+cmake-build-debug/
+cmake-build-release/
+
+# vim
+*.swp
+*.swo
+*~
+
+# ======================================
+# 系统、日志、临时文件
+# ======================================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
