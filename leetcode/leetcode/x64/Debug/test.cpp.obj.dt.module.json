@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "leetcode\\x64\\Debug\\test.obj",
+            "outputs": [
+                "leetcode\\x64\\Debug\\test.cpp.obj.dt.module.json",
+                "leetcode\\x64\\Debug\\test.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

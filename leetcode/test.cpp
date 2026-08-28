@@ -122,3 +122,25 @@ public:
     }
 
 };
+
+//495 题 提莫攻击  模拟的方法
+class Solution {
+public:
+    int findPoisonedDuration(vector<int>& timeSeries, int duration) {
+        int ret = 0;
+        for (int i = 1;i < timeSeries.size();i++)
+        {
+            int x = timeSeries[i] - timeSeries[i - 1];
+            if (x >= duration)
+            {
+                ret = ret + duration;
+            }
+            else
+            {
+                ret = ret + x;
+            }
+
+        }
+        return ret + duration;
+    }
+};
